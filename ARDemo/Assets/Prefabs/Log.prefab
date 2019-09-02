@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2451830533702679127}
+  - component: {fileID: 3632751286345902652}
   m_Layer: 0
   m_Name: Log
   m_TagString: Untagged
@@ -23,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599525857627366137}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32,6 +33,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3632751286345902652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599525857627366137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c41f35f7a0a7f047990f7c1de62df91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollbar: {fileID: 7838643007947708573}
+  text: {fileID: 7838643007136843036}
 --- !u!1 &7838643006202698995
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000018742854}
+  m_AnchoredPosition: {x: 0, y: 0.000003584687}
   m_SizeDelta: {x: 270, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7838643007136843037
@@ -249,7 +264,6 @@ GameObject:
   - component: {fileID: 7838643007888784255}
   - component: {fileID: 7838643007888784254}
   - component: {fileID: 7838643007888784241}
-  - component: {fileID: 7838643007888784253}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -359,20 +373,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7838643007888784253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7838643007888784243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c41f35f7a0a7f047990f7c1de62df91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollbar: {fileID: 7838643007947708573}
-  text: {fileID: 7838643007136843036}
 --- !u!1 &7838643007947708575
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7838643006202698992}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

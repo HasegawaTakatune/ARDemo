@@ -18,6 +18,7 @@ public class LookAtTarget : MonoBehaviour
     /// </summary>
     private void Start()
     {
+        GameObject.Find("Log").GetComponent<LogWindowControll>().AddText("Start UnityChan LookAtTarget.");
         animator = GetComponent<Animator>();
         target = Camera.main.transform;
     }
